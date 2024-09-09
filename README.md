@@ -16,7 +16,7 @@ For these notebooks to work a 'geospatial' environment must we created which inc
 1. Then create a virtual environment and install all the dependances.
 Setting-up the virtual environment can be done from the terminal on osx and linux with the following commands:
 ```
-python3 -m venv geospatialjuputer lab
+python3 -m venv geospatial
 source venv/bin/activate
 python3 -m pip install -r requirements.txt
 
