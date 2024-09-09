@@ -10,7 +10,25 @@ Each with a working and complete notebook for use in workshop instruction.
 
 For these notebooks to work a 'geospatial' environment must we created which includes all the necessary libraries.
 
-With [Anaconda](https://www.anaconda.com/) installed the following steps can be used:
+
+## Installation
+1. Start by downloading and installing [python](https://www.python.org/downloads/)
+1. Then create a virtual environment and install all the dependances.
+Setting-up the virtual environment can be done from the terminal on osx and linux with the following commands:
+```
+python3 -m venv geospatialjuputer lab
+source venv/bin/activate
+python3 -m pip install -r requirements.txt
+
+```
+Then execute
+
+```jupyter lab```
+
+To launch JupyterLab
+
+---
+Alternatively, with [Anaconda](https://www.anaconda.com/) installed the following steps can be used:
 
 1. From the Anaconda Navigator click the "Environments" button on the left.
 1. Then from the bottom of the screen, click Import.
@@ -18,4 +36,4 @@ With [Anaconda](https://www.anaconda.com/) installed the following steps can be 
 1. Accept the default name, then click the "Import" button from the popup and wait while the environment is created.
 1. Make sure the "geospatial" environment is selected and then launch jupyter lab
 
-Alternate [Software Setup](https://carpentries-incubator.github.io/geospatial-python/index.html#software-setup).
+Conda can also be used for the [software setup](https://carpentries-incubator.github.io/geospatial-python/#software-setup).
