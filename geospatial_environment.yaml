@@ -24,3 +24,4 @@ dependencies:
   - ipython
   - ipywebrtc
   - pyarrow
+  - planetary-computer
